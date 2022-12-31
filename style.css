@@ -180,7 +180,7 @@ p   {
     grid-template-rows: 100% 100%;
 }
 .cherry {
-    background-image: url("../img/image-graphic-design.jpg");
+    background-image: url("..image-graphic-design.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x:center;
@@ -190,7 +190,7 @@ p   {
     
 }
 .orange {
-    background-image: url("../img/image-photography.jpg");
+    background-image: url("image-photography.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
