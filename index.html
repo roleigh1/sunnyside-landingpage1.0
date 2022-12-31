@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <header>
+   <nav>
+     <div class="inline">
+       <h1>sunnyside</h1>
+       <img  id="burger" src="images/icon-hamburger.svg" onclick="myFunction()" alt="menu" width="24" height="18">
+
+     </div>
+     <div id="active">
+        <div class="triangle"></div>
+        <div class="menu">
+ 
+        
+             <ul id="mlist">
+               <a href=""><li class="list">About</li></a>
+               <a href=""><li class="list">Services</li></a>
+               <a href=""><li class="list">Projects</li></a>
+               <a href=""><li class="list">Contact</li></a>
+             </ul>
+    
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <div  class="sectionone">
+      <h2>WE ARE CREATIVES </h2>
+      <img  id="arrow" src="../img/icon-arrow-down.svg" alt="">
+     
+    </div>
+  
+  
+  <section id="s2">
+    <div  class="sectiontwo"> 
+      
+      <div class="twotext">
+       <h3>Transform your <br> Brand</h3>
+       <p>We are a full-service creative agency specializing in <br> helping brands grow 
+        Engage your clients through <br> compelling visuals that do most of the marketig for 
+        you.
+       </p>
+       <span class="yellow" onclick="test()">Learn More</span>
+      </div>
+       <img src="../img/egg.jpg"  style="height:100%; width: 100%;" class="egg" alt="egg">
+    
+     <div  class="sectionthree">
+        <img src="../img/image-stand-out.jpg" style="height:99%; width: 100%;" class="stand" alt="glass">
+       <div class="textthree">
+        <h3>Stand out to the right <br> audience</h3>
+        <p>Using a collaborative formula of desingers, researchers, <br>
+          photographers, videographers, and copywriters, we´ll <br>
+          build and extended your brand in digital places.</p>
+         <span class="red">Learn More</span>
+     </div>
+    </div>
+ </section>
+   <section>
+     <div class="sectionfour">
+        <div class="cherry">
+          <h4>Graphic Design</h4>
+          <p>Geat design makes you memorable.We deliver <br>
+             artwork that underscores your brand message <br>
+                and captures potential clients`attention.</p>
+
+        </div>
+        <div class="orange">
+          <h4>Photography</h4>
+          <p>Increase your credibility by getting the most <br>
+             stunning, high-quality photos that improve your <br>
+                business image.</p>
+        </div> 
+     </div>
+   </section>
+   <section>
+      <div class="sectionfive">
+            <h5>CLIENT TESTIMONIALS</h5>
+            <div class="staff">
+             <div class="boxstaff">
+               <img src="../img/image-emily.jpg" alt="emily" class="worker" style="border-radius:50%; height: 5rem; width: 5rem;">
+                <p class="descrip-staff">We put our trust in Sunnyside and they <br>
+                    delivered, making sure our needs were met <br>
+                     and deadlines were always hit.</p>
+                     <h6>Emily R.</h6>
+                     <p class="ph6">Markting Director</p>
+             </div>
+             <div class="boxstaff">
+               <img src="../img/image-thomas.jpg" alt="thomas" class="worker" style="border-radius:50%; height: 5rem; width: 5rem;">
+              <p class="descrip-staff">Sunnysied´s enthusiasm coupled with their <br>
+                  keen interest in our brand´s success made it <br>
+                  a satisfying and enjoyable experience.</p>
+                  <h6>Thomas S.</h6>
+                  <p class="ph6">Chief Operating Officer</p>
+
+              </div>
+              <div class="boxstaff">
+                <img src="../img/image-jennie.jpg" alt="jenny" class="worker" style="border-radius:50%; height: 5rem; width: 5rem;">
+                <p class="descrip-staff">Incredible end result! Our sales increased <br>
+                    over 400% when we worked with Sunnyside. <br>
+                    Highly recommended!</p>
+                    <h6>Jennie F.</h6>
+                    <p class="ph6">Business Owner</p>
+              </div>
+              
+      </div>
+   </section>
+    <section>
+        <div class="sectionsix">
+           
+             <img src="../img/image-gallery-milkbottles.jpg" alt="milk" class="gallery">
+             <img src="../img/image-gallery-orange.jpg" alt="orange" class="gallery">
+          
+        
+             <img src="../img/image-gallery-cone.jpg" alt="cone" class="gallery">
+             <img src="../img/image-gallery-sugarcubes.jpg" alt="cubes" class="gallery">
+         </div> 
+     </section>
+      <footer>
+        <h1 id="hfooter">sunnyside</h1>
+        <div class="fmenu">
+          
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+          
+        </div>
+        <div class="sociallinks">
+            <img src="icon-facebook.svg" alt="fb" class="social">
+            <img src="icon-instagram.svg" alt="insta" class="social">
+            <img src="icon-twitter.svg" alt="twitter" class="social">
+            <img src="icon-pinterest.svg" alt="pinter" class="social"
+            >
+
+        </div>
+     </footer>
+  
+  <script src="nav.js"></script>
+  <footer>
+  </footer>
+</body>
+</html>
