@@ -10,6 +10,7 @@ The following technologies have been used in the development of this landing pag
 
     HTML5
     CSS3
+    JS
 
 The following external libraries have been included in the page:
 
